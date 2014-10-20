@@ -42,7 +42,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #fec503;
+    color: #eee;
 }
 
 h1,
@@ -78,6 +78,10 @@ h6 {
     margin: 0 auto;
 }
 
+.huge-text * {
+    font-size: 24px !important;
+}
+
 .bg-light-gray {
     background-color: #f7f7f7;
 }
@@ -102,7 +106,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #eee;
 }
 
 .btn-primary:active,
@@ -154,7 +158,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #fec503;
+    background-color: #eee;
 }
 
 .btn-xl:active,
@@ -189,7 +193,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #222;
+    background-color: #a00;
 }
 
 .navbar-default .navbar-brand {
@@ -202,7 +206,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #fec503;
+    color: #eee;
 }
 
 .navbar-default .navbar-collapse {
@@ -246,7 +250,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #fec503;
+    background-color: #eee;
 }
 
 @media(min-width:768px) {
