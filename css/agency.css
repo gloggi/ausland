@@ -76,12 +76,13 @@ h6 {
     z-index: 1000;
 }
 
-.img-centered {
-    margin: 0 auto;
+.huge-text * {
+    font-size: 20px !important;
 }
 
-.huge-text * {
-    font-size: 24px !important;
+.img-centered {
+    margin: 0 auto;
+    width: 100%;
 }
 
 .bg-light-gray {
@@ -286,6 +287,10 @@ fieldset[disabled] .btn-xl.active {
 
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
+    }
+
+    .huge-text * {
+        font-size: 24px !important;
     }
 }
 
