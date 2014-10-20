@@ -71,6 +71,7 @@ h6 {
 
 .intro .logo {
     position: relative;
+    opacity: 0.6;
     z-index: 1000;
 }
 
@@ -193,7 +194,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default {
     border-color: transparent;
-    background-color: #a00;
+    background-color: rgba(99, 0, 0, 0.6);
 }
 
 .navbar-default .navbar-brand {
@@ -257,7 +258,6 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default {
         padding: 25px 0;
         border: 0;
-        background-color: transparent;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
